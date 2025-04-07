@@ -79,3 +79,9 @@
 // myFunction();
 // console.log(obj);
 
+//  Stack and Heap -- 7 
+/* 
+In stack primitive data types will be stored
+
+In Heap non primitive data types will be stored
+*/
