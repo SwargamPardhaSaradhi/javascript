@@ -31,3 +31,51 @@
 // and we try to convert to number then it gives us NaN (not an number)
 // */ 
 
+// // Operations --- 4
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log(1+2+"2");
+// console.log("1"+2+2);
+// /* 
+// each of them has their own reference
+// the first one and second one we get 12 
+// but in the third and fourth we get differently like 32 and 122 
+// */
+
+// // comparsion of datatypes -- 5
+// console.log(1==2);
+// console.log(2>3);
+// console.log(3<2);
+// console.log(1!=2);
+//  // the above once are common but we also have strict check ===
+//  // === strict check 
+//  console.log("2">1);//true
+//  console.log("2"===1);//false
+
+// //  Data Types Summary --- 6
+// /* 
+//  1 - Primitive 
+//  7 Types : String,Number,Boolean,NUll,Undefined,Symbol,Big Int 
+
+//  2-Reference (Non Primitive)
+//  Arrays, Objects, Functoions 
+// */
+// //Primitive
+// let userEmail;
+// let some = null;
+// let symb = Symbol('123');//it is a different datatype
+// console.log(symb);
+
+// const big_number = 12321232123212321232123n// it is a big int at last we need to keep 'n'
+// // Non Primitive
+// const so = [1,2,3];
+// const obj = {
+//     name:"pardhu",
+//     age: 22,
+// }
+// const myFunction = function(){
+//     console.log("hi");
+// }
+// myFunction();
+// console.log(obj);
+
