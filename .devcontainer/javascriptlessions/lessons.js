@@ -103,3 +103,66 @@
 // console.log(user1);
 // // here the name in user is changed to kit aswell as the user1 as they both point to one object
 
+// Number and Maths --- 8 
+/*
+we use toFixed(2) for rounding a decimal to two digits
+we use toLocalString() for changing to numbers and keeping commas
+Number.MAX_VALUE for max and Number.MIN_VALUE for min value
+
+Maths 
+-----
+Math.abs() --> gives us the absolute value 
+Math.round() --> rounds to nearest number
+Math.ceil() --> rounds to highest nearest number
+Math.floor() --> rounds to nearest lowest number
+Math.max() --> gives max numbers
+Math.min() --> gives min numbers
+Math.random() -- gives random numbers 
+
+*/
+
+// Date -- 9
+
+// let myDate = new Date();
+// console.log(myDate.toDateString()); // gets the present date in day month format
+// console.log(myDate.toISOString());
+// console.log(myDate.toJSON());
+// console.log(myDate.toLocaleDateString()); // gets the present date in mm/dd/yyyy format 
+// console.log(myDate.toTimeString()); // get the time
+// console.log(myDate.toLocaleString()); // time and date we mostly use this
+// // for creating date
+// let createdDate = new Date(2023,0,23); // for creation we need to pass parameters as (year , month(starts from 0), date)
+// console.log(createdDate.toLocaleString());
+// // we can also give time also
+// let createdDateAndTime = new Date(2023,1,12,5,1);// hours , minutes format
+// console.log(createdDateAndTime.toLocaleString());
+// // we can also create like this
+// let datea = new Date("12-01-2022");
+// console.log(datea.toLocaleString());
+// // for getting preset date and time we use now 
+// let present = Date.now() // we get in milliseconds 
+// console.log(present);// we use .getTime() for getting time 
+
+
+
+
+// Array -- 10
+//javascript arrays are mixed and resizeable arrays means we can and add delete dynamically and there will be mixed data types
+const my_arr = [1,2,3,4,5,6];// one way of delcraing
+const myarr = new Array(1,2,3,4,5); // another way of declaring
+console.log(my_arr);
+my_arr.push(7);// adds an element at last of the array .push()
+console.log(my_arr);
+my_arr.pop();//removes last element
+console.log(my_arr);
+my_arr.unshift(0) // adds an element at the starting of an array
+console.log(my_arr); 
+my_arr.shift() // removes an element at the starting of an array
+console.log(my_arr);
+
+console.log(my_arr.includes(3))// checks if this is present in array or not 
+console.log(my_arr.indexOf(3)) // gives the index of the element
+console.log(my_arr.join())// converts array to string 
+// there are two methods for slicing the array .slice(start,end) and .splice(start,end) but the point is 
+console.log(my_arr.slice(1,4)) // here there will be only three elementns from 1 to 3 and the original array will not be changed
+console.log(my_arr.splice(1,5)) // here there will be 5 elements and also the orginal array will be changed it will be divied into two parts
