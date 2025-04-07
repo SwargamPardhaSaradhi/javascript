@@ -146,23 +146,23 @@ Math.random() -- gives random numbers
 
 
 
-// Array -- 10
-//javascript arrays are mixed and resizeable arrays means we can and add delete dynamically and there will be mixed data types
-const my_arr = [1,2,3,4,5,6];// one way of delcraing
-const myarr = new Array(1,2,3,4,5); // another way of declaring
-console.log(my_arr);
-my_arr.push(7);// adds an element at last of the array .push()
-console.log(my_arr);
-my_arr.pop();//removes last element
-console.log(my_arr);
-my_arr.unshift(0) // adds an element at the starting of an array
-console.log(my_arr); 
-my_arr.shift() // removes an element at the starting of an array
-console.log(my_arr);
+// // Array -- 10
+// //javascript arrays are mixed and resizeable arrays means we can and add delete dynamically and there will be mixed data types
+// const my_arr = [1,2,3,4,5,6];// one way of delcraing
+// const myarr = new Array(1,2,3,4,5); // another way of declaring
+// console.log(my_arr);
+// my_arr.push(7);// adds an element at last of the array .push()
+// console.log(my_arr);
+// my_arr.pop();//removes last element
+// console.log(my_arr);
+// my_arr.unshift(0) // adds an element at the starting of an array
+// console.log(my_arr); 
+// my_arr.shift() // removes an element at the starting of an array
+// console.log(my_arr);
 
-console.log(my_arr.includes(3))// checks if this is present in array or not 
-console.log(my_arr.indexOf(3)) // gives the index of the element
-console.log(my_arr.join())// converts array to string 
-// there are two methods for slicing the array .slice(start,end) and .splice(start,end) but the point is 
-console.log(my_arr.slice(1,4)) // here there will be only three elementns from 1 to 3 and the original array will not be changed
-console.log(my_arr.splice(1,5)) // here there will be 5 elements and also the orginal array will be changed it will be divied into two parts
+// console.log(my_arr.includes(3))// checks if this is present in array or not 
+// console.log(my_arr.indexOf(3)) // gives the index of the element
+// console.log(my_arr.join())// converts array to string 
+// // there are two methods for slicing the array .slice(start,end) and .splice(start,end) but the point is 
+// console.log(my_arr.slice(1,4)) // here there will be only three elementns from 1 to 3 and the original array will not be changed
+// console.log(my_arr.splice(1,5)) // here there will be 5 elements and also the orginal array will be changed it will be divied into two parts
