@@ -79,9 +79,27 @@
 // myFunction();
 // console.log(obj);
 
-//  Stack and Heap -- 7 
-/* 
-In stack primitive data types will be stored
+// //  Stack and Heap -- 7 
+// /* 
+// In stack primitive data types will be stored
 
-In Heap non primitive data types will be stored
-*/
+// in stack the data will data will be copied but in heap the data will not be copied
+
+// In Heap non primitive data types will be stored
+// */
+// let a = "some";
+// let b = a;
+// b = "sa";
+// console.log(a);
+// console.log(b);
+// // here u can see that a and b are different even after i change 
+// let user = {
+//     name:"par",
+//     age : 12
+// }
+// let user1 = user;
+// user1.name = "kit";
+// console.log(user);
+// console.log(user1);
+// // here the name in user is changed to kit aswell as the user1 as they both point to one object
+
