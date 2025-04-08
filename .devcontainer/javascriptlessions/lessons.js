@@ -166,3 +166,101 @@ Math.random() -- gives random numbers
 // // there are two methods for slicing the array .slice(start,end) and .splice(start,end) but the point is 
 // console.log(my_arr.slice(1,4)) // here there will be only three elementns from 1 to 3 and the original array will not be changed
 // console.log(my_arr.splice(1,5)) // here there will be 5 elements and also the orginal array will be changed it will be divied into two parts
+
+// const arr = [1,2,3,4];
+// const att2 = [14,5,6,7];
+// const arry = arr.concat(att2); // this method is for concating two arrays
+// console.log(arry);
+// there is also spread operator like ... for spreading 
+// const ar = [...arr,...att2]
+// console.log(ar);
+
+// // we can use flat for flatterning the arr which is multi 
+
+// console.log(Array.from("pardhu")); // this method will make array of the stiring or objects
+ 
+// // we can do arrays by Array.of(var1, var2, var3, ...);
+
+
+
+
+// objects  ---  11
+// sigleton 
+//object literals
+// const Jsuser = {
+//     name:"pardhu",
+//     age:20,
+//     lastVisit :["monday","tuesday"]
+// }
+
+// console.log(Jsuser.name); // this is one way 
+// console.log(Jsuser["name"]); // this is another way but me mostly use by . operator
+
+// Jsuser.name = "kitu" // for changing the objects
+// // Object.freeze(Jsuser) // we will freeze the objects we cannot change the values in object
+
+// Jsuser.greetings = function(){ // we will create object functions like this 
+//     console.log(`${this.name}`); // by this variable we can access the object values
+// }
+// Jsuser.greetings(); // if we freeze the object it wont work
+
+// objects 2 
+
+// // we can declare an object and then we can add values ex below
+// const ob1 = {};
+// ob1.name = "kit";
+// ob1.age = 21;
+// console.log(ob1); // here the object will automatically add the values to the object
+// // we can also nest objects 
+// const obj1 = {1:'1',2:'2'};
+// const ob2 = {3:'3'};
+// const ob3 = Object.assign({},obj1,ob2); // this is used for merging the objects the first {} is not mandatory but we can keep for better use
+// console.log(ob3);
+
+// // we can also use spread operator
+// const obj3 = {...obj1,...ob2};
+// console.log(obj3);
+
+// // for getting the keys of the object we will use Object.keys()
+// console.log(Object.keys(ob1));
+// console.log(Object.values(ob1)); // similarly for values
+// console.log(Object.entries(ob1)); // for getting in array
+
+// console.log(ob1.hasOwnProperty('name')); // for checking the property is present or not
+
+// // we can also destructure the object also 
+
+// const {name} = ob1;
+// console.log(name);
+
+// // we can also rename them 
+// const {name: myName} =ob1;
+// console.log(myName); // this is how we mostly destructure the object
+
+
+//  functions in javascript -- 12
+
+// function addNumbers(num1 , num2){
+//     return num1+num2;
+// }
+// let res = addNumbers(1,2);
+// console.log(res);
+// the above one is example of function
+// function SayName(name = "kittu"){
+//     console.log(name);
+// }
+// // here in the above u can see that we can keep the function value to kittu if it isnot used
+// SayName("pardhu"); // kittu will be overrided
+// SayName(); // nothing is given hence kittu as basic one is printed
+
+// function num(...some){ // by keeping ... we can add all the element to array
+//     return some;
+// }
+// console.log(num(100,200,3000));
+// we can also send object as parameter to function and also arrays 
+
+// we can also declare in arrow function
+// const ben = () => {
+//     console.log("hi");
+// }
+// ben();
