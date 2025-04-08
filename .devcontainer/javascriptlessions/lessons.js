@@ -264,3 +264,39 @@ Math.random() -- gives random numbers
 //     console.log("hi");
 // }
 // ben();
+
+//  if we want to exectue the function then and their it self then we use ()()
+// (function(){
+//     console.log("hi");
+// })();
+
+// rest all are about loops similar to java 
+
+/* but as in java for each loop here we will have 
+for(const a of arr){};
+we use of instead of : 
+
+and also here we also has Map 
+*/
+// const map = new Map();
+// map.set('as0','hi'); // here as0 is key and hi is the word we stored it will be like this 
+// console.log(map); // we can add more 
+
+
+// object itteration 
+/* for object itteration we use in 
+like for(const i in myObject )  note we use of for arrays and others 
+but for object we use in for getting keys
+*/
+// const user ={
+// name:"pardhu",
+// age:20,
+// salary:200000
+// }
+// for(const i in user){
+//     console.log(i);
+// }
+// for(const i in user){
+//     console.log(`key :- ${i} object :- ${user[i]}`);
+// }
+// we can use in for printing the arrays but we get keys
