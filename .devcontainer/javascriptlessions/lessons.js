@@ -308,3 +308,15 @@ but for object we use in for getting keys
 // });
 // console.log(mynumb);
 // arr.forEach((num) => {console.log(num);});
+// reduce in array
+// reduce is optional but if we want the syntax is given below
+// const ar = arr.reduce((acc,item) => {
+// return acc+item;
+// },0);
+// console.log(ar);
+/*
+const a = [1,2,3,4,5];
+const ar = a.reduce((accumulator,items in array) => {
+    we will return array like adding all 
+    return accumulator + item in array},0 here we will keep zero as it is the basic start)
+    */
