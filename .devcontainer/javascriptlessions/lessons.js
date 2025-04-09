@@ -320,3 +320,11 @@ const ar = a.reduce((accumulator,items in array) => {
     we will return array like adding all 
     return accumulator + item in array},0 here we will keep zero as it is the basic start)
     */
+
+
+
+
+
+
+// DOM the main deal
+
