@@ -300,3 +300,11 @@ but for object we use in for getting keys
 //     console.log(`key :- ${i} object :- ${user[i]}`);
 // }
 // we can use in for printing the arrays but we get keys
+
+// filter in array 
+// const arr = [1,2,3,4,5,6];
+// const mynumb = arr.filter((item) => {
+//     return item>2;
+// });
+// console.log(mynumb);
+// arr.forEach((num) => {console.log(num);});
