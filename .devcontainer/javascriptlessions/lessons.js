@@ -327,4 +327,5 @@ const ar = a.reduce((accumulator,items in array) => {
 
 
 // DOM the main deal
-
+// basic one is
+//document.getElementById('byid');
